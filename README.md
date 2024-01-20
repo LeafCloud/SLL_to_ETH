@@ -14,8 +14,11 @@ Linux : 需要安装g++, libpcap-dev
 
 # 项目编译方式
 
-## 预编译安装
-目前项目已经在预编译好Win10 x64和 Ubuntu 18.04 x64平台下的可执行文件,可执行文件在bin目录.
+Linux环境下
+sudo apt-get install libpcap-dev
+git clone https://github.com/LeafCloud/sll_to_eth.git
+cd nflog_to_eth
+make
 
 
 # 使用方法
