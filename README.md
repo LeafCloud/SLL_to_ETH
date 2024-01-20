@@ -1,5 +1,7 @@
 # 项目介绍
 本项目支持将从Linux Cooked Capture Header网卡抓取的SLL帧转换为常见的以太网帧。 
+代码根据实验室师兄的从Linux NFLOG网卡抓取的NFLOG 帧转换为常见的以太网帧代码改进而来，原项目地址为https://github.com/jmhIcoding/nflog_to_eth.git
+感谢师兄
 
 # 项目地址：
 https://github.com/LeafCloud/sll_to_eth.git
