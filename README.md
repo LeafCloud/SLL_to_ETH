@@ -15,10 +15,12 @@ Linux : 需要安装g++, libpcap-dev
 # 项目编译方式
 
 Linux环境下
+```sh
 sudo apt-get install libpcap-dev
 git clone https://github.com/LeafCloud/sll_to_eth.git
 cd nflog_to_eth
 make
+```
 
 
 # 使用方法
