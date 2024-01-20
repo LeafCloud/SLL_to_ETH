@@ -24,19 +24,7 @@ sll_to_eth接受2个参数:
 - dst_pcapname : 目的文件地址
 
 
-bin目录下有一个名为nflog.pcap的测试文件：里面的数据包是被NFLOG封装了。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201030181404791.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ptaDE5OTY=,size_16,color_FFFFFF,t_70#pic_center)
-
-例如执行如下指令：
-
-```
-cd bin/
-nflog_to_eth nflog.pcap eth.pcap
-```
-
-即可看到转换得到的eth.pcap文件。
-![在这里插入图片描述]![Uploading image.png…]()
-
+bin目录下有一个.pcap的测试文件：里面的数据包是被SLL封装了。
 # 其他
 目前以太网帧里面的源MAC地址和目的MAC是硬编码在 `src/main.cpp` 文件：
 
