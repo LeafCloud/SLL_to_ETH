@@ -34,9 +34,9 @@ make
 
 # 使用方法
 
-nflog_to_eth接受2个参数: 
+sll_to_eth接受2个参数: 
 
-- src_pcapname : 源NFLOG格式的pcap文件
+- src_pcapname : 源SLL格式的pcap文件
 - dst_pcapname : 目的文件地址
 
 
