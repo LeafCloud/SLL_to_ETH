@@ -18,7 +18,7 @@ Linux环境下
 ```sh
 sudo apt-get install libpcap-dev
 git clone https://github.com/LeafCloud/sll_to_eth.git
-cd nflog_to_eth
+cd sll_to_eth
 make
 ```
 
